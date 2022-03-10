@@ -1,0 +1,334 @@
+{
+	"name": "WAF",
+	"versions": {
+		"attack": "9",
+		"navigator": "4.3",
+		"layer": "4.2"
+	},
+	"domain": "enterprise-attack",
+	"description": "",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"Azure AD",
+			"Office 365",
+			"SaaS",
+			"IaaS",
+			"Google Workspace",
+			"PRE",
+			"Network",
+			"Containers",
+			"AWS",
+			"Azure",
+			"GCP"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1498",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "1 rule",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505.003",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1528",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT5003",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1595.001",
+			"tactic": "reconnaissance",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1595.003",
+			"tactic": "reconnaissance",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.001",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.002",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.003",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.004",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.005",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.006",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.007",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.008",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.009",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.012",
+			"tactic": "initial-access",
+			"score": 2,
+			"color": "",
+			"comment": "2 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.014",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.018",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.019",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.020",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.021",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.024",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1190.025",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1211.001",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1212.001",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1212.002",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "QT1212.003",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "1 rules",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ffffff",
+			"#66b1ff"
+		],
+		"minValue": 0,
+		"maxValue": 3
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": true,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false
+}
